@@ -51,11 +51,11 @@ While most automatically collected attributes are indexed and faceted, your cust
 
 A facet displays all distinct members of an attribute or tag and provides basic analytics, such as the number of RUM events represented. Facets allow you to pivot or filter your datasets based on a given attribute. Selecting a value applies a filter in the search bar.
 
-{{< img src="real_user_monitoring/explorer/facets.png" alt="List of facets to the left of the events list" style="width:90%;">}}
+{{< img src="real_user_monitoring/explorer/rum_facet.png" alt="List of facets to the left of the events list" style="width:90%;">}}
 
-To create a facet, find and click on an attribute in the [event side panel][7].
+To create a facet, click **+ Add**, then start typing to find the attribute path in the [event side panel][7]. Alternatively, you can add the facet to your query.
 
-{{< img src="real_user_monitoring/explorer/create_facet.png" alt="Create a facet" style="width:40%;">}}
+{{< img src="real_user_monitoring/explorer/search/rum-create-facet.mp4" alt="Create a facet" video="true" style="width:100%;" >}}
 
 The value for the attribute is stored across all new views. You can access these attributes in the search bar, the **Facets** panel, and your [visualizations][8].
 
